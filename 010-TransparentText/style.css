@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(./images/Chinese_New_Year_Illustration.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#container h1{
+    position: absolute;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%,-50%);
+    text-transform:uppercase;
+    font-size: 10em;
+    mix-blend-mode: overlay;
+    text-shadow: 0 15px 15px rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+}

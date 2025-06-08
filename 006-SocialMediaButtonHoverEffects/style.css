@@ -17,7 +17,9 @@ ul li{
 
 ul li a{
     position: relative;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
     width: 150px;
     height: 80px;
     line-height: 80px;
